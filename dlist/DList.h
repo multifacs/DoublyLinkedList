@@ -142,7 +142,7 @@ public:
 		tail = tail->pPrev;
 
 		if (tail != nullptr)
-			tail->pPrev = nullptr;
+			tail->pNext = nullptr;
 		else
 			head = head->pNext;
 
